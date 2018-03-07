@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="min_space">5dp</dimen>
+    <dimen name="browse_text_size">10dp</dimen>
+    <dimen name="down_Surface_margin">40dp</dimen>
+    <dimen name="down_text_margin">10dp</dimen>
+    <!--标题文字大小-->
+    <!--标题文字高度-->
+    <!--消息文字大小-->
+    <!--消息距离底部间距-->
+    <!--窗口模式左右两边到屏幕的间距-->
+    <!--线条粗细-->
+    <!--按钮的高度-->
+    <!--按钮文字大小-->
+    <!--圆角-->
+
+</resources>

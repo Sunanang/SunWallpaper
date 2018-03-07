@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_base"
+    android:background="@drawable/timg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/include_title_layout" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <EditText
+                        android:textSize="14.0dip"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@color/white_99"
+                        android:gravity="top"
+                        android:id="@+id/tickling_information"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dip"
+                        android:hint="@string/opinion_edit_hint"
+
+                        android:lines="13" />
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0px" />
+
+                    <EditText
+                        android:textSize="14.0dip"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@color/white_99"
+                        android:ellipsize="end"
+                        android:id="@+id/contact_information"
+                        android:background="@drawable/bg_feedback_contact"
+                        android:padding="8.0dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginTop="40.0dip"
+                        android:layout_marginRight="30.0dip"
+                        android:hint="@string/opinion_edit_hint_contact"
+                        android:singleLine="true" />
+                    <TextView
+                        android:clickable="true"
+                        android:textSize="18.0sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:id="@+id/tickling_submit"
+                        android:background="@drawable/selector_btn_feedback_submit"
+                        android:paddingTop="5.0dip"
+                        android:paddingBottom="5.0dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginTop="25.0dip"
+                        android:layout_marginRight="30.0dip"
+                        android:text="提              交" />
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0px"
+                        android:layout_marginTop="40.0dip" />
+                    <RelativeLayout
+                        android:id="@+id/join_submit"
+                        android:background="@drawable/selector_btn_feedback_submit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginTop="35.0dip"
+                        android:layout_marginRight="30.0dip">
+                        <TextView
+                            android:textSize="18.0sp"
+                            android:textColor="@color/white"
+                            android:paddingLeft="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:paddingBottom="5.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/opinion_contact"
+                            android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:id="@+id/ad_full"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+
+</LinearLayout>

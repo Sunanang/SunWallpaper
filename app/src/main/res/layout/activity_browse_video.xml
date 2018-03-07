@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sunanang.sunwallpaper.browse.BrowseVideoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:background="@color/c50000"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lin_video_back"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:clickable="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                style="@style/NormalMenu2"
+                android:text="@string/browse_back"
+                android:src="@drawable/backimg" />
+            <TextView
+                android:clickable="false"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/browse_back"
+                android:textSize="@dimen/browse_text_size"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/lin_video_setting"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:clickable="false"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/NormalMenu2"
+                android:text="@dimen/browse_text_size"
+                android:src="@drawable/gallerys"/>
+            <TextView
+                android:clickable="false"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/browse_setting"
+                android:textSize="@dimen/browse_text_size"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

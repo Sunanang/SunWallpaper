@@ -1,0 +1,10 @@
+{
+  "format" : "1",
+  "name":"小草",
+  "nodes" : [
+    {
+	  "type":"3dModel",
+      "obj" : "grass.obj",
+    },
+  ]
+}

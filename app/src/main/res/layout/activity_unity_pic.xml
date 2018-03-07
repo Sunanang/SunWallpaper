@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timg"
+    android:id="@+id/lin_base"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_title_layout" />
+    <RelativeLayout
+        android:id="@+id/layout_load"
+        android:background="@color/back_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mingle.widget.LoadingView
+            android:id="@+id/loadView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/comm_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/selector_btn_setting_back"
+            android:clickable="true"
+            android:id="@+id/tv_menu_title"
+            android:textSize="15.0sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="5.0dip"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:paddingBottom="5.0dip"
+            android:text="@string/app_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+        <View
+            android:layout_gravity="bottom|center"
+            android:background="@color/common_title_line"
+            android:layout_width="150dp"
+            android:layout_height="1.0dip" />
+        <ImageView
+            android:layout_gravity="center"
+            android:drawableBottom="@drawable/more"
+            android:src="@drawable/more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            app:srlAccentColor="@color/common_setting_line"
+            app:srlPrimaryColor="@color/refresh_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.scwang.smartrefresh.header.MaterialHeader
+                android:background="@color/colorTranslucent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_ad_fullscreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+
+</LinearLayout>

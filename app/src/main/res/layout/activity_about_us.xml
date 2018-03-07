@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_base"
+    android:background="@drawable/timg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_title_layout" />
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="@color/common_setting_line"
+                    android:layout_width="50dp"
+                    android:layout_height="1.5px" />
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:text="v1.0"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:background="@color/version_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="@color/common_setting_line"
+                    android:layout_width="50dp"
+                    android:layout_height="1.5px" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:text="@string/destory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/common_setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5px" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:alpha="0.9"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/contact_website1"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/website"
+                    android:alpha="0.9"
+                    android:layout_weight="1"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/contact_website2"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/common_setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5px" />
+
+            <TextView
+                android:alpha="0.9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/contact_email"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/common_setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5px" />
+
+            <TextView
+                android:alpha="0.9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/contact_qq"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/common_setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5px" />
+
+            <TextView
+                android:id="@+id/shareToQz"
+                android:alpha="0.9"
+                android:background="@drawable/selector_btn_setting_back"
+                android:clickable="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/opinion_contact"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/common_setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5px" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:alpha="0.9"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pulic_num"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_wechat"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wechat"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp" />
+                    <ImageView
+                        android:id="@+id/img_zf"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:src="@drawable/zf"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="17dp"
+                        android:text="微信"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="17dp"
+                        android:text="支付宝"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:gravity="center"
+                    android:alpha="0.9"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/about_wechat"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lin_base"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/include_title_layout" />
+            <ScrollView
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="16.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="12.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="壁纸声音"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:clickable="true"
+                            android:id="@+id/img_check_volume"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="13dip"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/latout_camera"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="16.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="12.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="拍拍相机"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <TextView android:textSize="16.0dip"
+                        android:textColor="@color/white"
+                        android:gravity="center|left"
+                        android:paddingLeft="20.0dip"
+                        android:paddingTop="16.0dip"
+                        android:paddingRight="12.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="在线壁纸"
+                        android:alpha="0.9" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="12.0dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false">
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0">
+                            <ImageView
+                                android:clickable="true"
+                                android:id="@+id/img_shop"
+                                android:onClick="onClick"
+                                android:background="@drawable/selector_img_theme_wallpaper"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginBottom="5.0dip" />
+                            <TextView
+                                android:textSize="11.0dip"
+                                android:textColor="@color/white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5.0dip"
+                                android:text="美图下载"
+                                android:alpha="0.9" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5.0dip">
+                                <ImageView
+                                    android:clickable="true"
+                                    android:id="@+id/img_community"
+                                    android:onClick="onClick"
+                                    android:background="@drawable/selector_img_quick_launch"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+                            </FrameLayout>
+                            <TextView
+                                android:textSize="11.0dip"
+                                android:textColor="@color/white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5.0dip"
+                                android:text="视频社区"
+                                android:alpha="0.9" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_marginTop="10.0dip" />
+                    <RelativeLayout
+                        android:onClick="onClick"
+                        android:clickable="true"
+                        android:id="@+id/layout_especially"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="12.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="特效壁纸"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_gallery"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="16.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="本地图库"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_videoLib"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="16.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="本地视频"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <TextView
+                        android:textSize="14.0dip"
+                        android:textColor="@color/white_99"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20.0dip"
+                        android:paddingTop="48.0dip"
+                        android:paddingRight="12.0dip"
+                        android:paddingBottom="8.0dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="其他"
+                        android:alpha="0.9" />
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_setting"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/selector_btn_setting_back"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="应用设置"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_share"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="应用分享"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/re_evaluate"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/opinion_evaluate"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_opinion"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="意见反馈"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/main_about"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/aboutUs"
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="关于我们"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:id="@+id/img_sign"
+                            android:alpha="0.9"
+                            android:layout_above="@id/aboutUs"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_228"
+                            android:layout_marginLeft="75dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true" />
+
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:id="@+id/main_version"
+                        android:onClick="onClick"
+                        android:clickable="true"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_version"
+                            android:paddingTop="16.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:alpha="0.9"
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:layout_alignParentRight="true"
+                            android:paddingRight="33.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="版本检测"
+                            android:alpha="0.9" />
+
+                        <!--android:drawableRight="@drawable/ic_arrow"-->
+
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:id="@+id/main_clear_garbage"
+                        android:onClick="onClick"
+                        android:clickable="true"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:clickable="false"
+                            android:id="@+id/tv_clear"
+                            android:paddingTop="16.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:alpha="0.9"
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:layout_alignParentRight="true"
+                            android:paddingRight="33.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.9"
+                            android:text="缓存清理" />
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/common_setting_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px" />
+
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:id="@+id/tv_inst"
+                        android:background="@drawable/selector_btn_setting_back"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/inst_tv"
+                            android:textSize="14.0dip"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/selector_btn_setting_back"
+                            android:paddingLeft="20.0dip"
+                            android:paddingTop="16.0dip"
+                            android:paddingRight="33.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="使用说明"
+                            android:alpha="0.9" />
+                        <ImageView
+                            android:id="@+id/img_sign_inst"
+                            android:alpha="0.9"
+                            android:layout_above="@id/inst_tv"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_228"
+                            android:layout_marginLeft="75dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginRight="33.0dip"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <!--黑色背景遮罩层，平时隐藏 -->
+        <View
+            android:id="@+id/gray_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#66000000"/>
+    </FrameLayout>
+
+</LinearLayout>

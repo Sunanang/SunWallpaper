@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_base"
+    android:background="@drawable/timg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/pic_img"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        layout="@layout/include_title_layout"/>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:background="@color/c50000"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:id="@+id/lin_pic_down"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                style="@style/NormalMenu2"
+                android:text="@string/browse_back"
+                android:src="@drawable/down" />
+            <TextView
+                android:clickable="false"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/pic_down"
+                android:textSize="@dimen/browse_text_size"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:clickable="true"
+            android:id="@+id/lin_pic_background"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/NormalMenu2"
+                android:text="@dimen/browse_text_size"
+                android:src="@drawable/back_icon"/>
+            <TextView
+                android:clickable="false"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/browse_setting_back"
+                android:textSize="@dimen/browse_text_size"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:id="@+id/lin_pic_setting"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/NormalMenu2"
+                android:text="@dimen/browse_text_size"
+                android:src="@drawable/gallerys"/>
+            <TextView
+                android:clickable="false"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/browse_setting"
+                android:textSize="@dimen/browse_text_size"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

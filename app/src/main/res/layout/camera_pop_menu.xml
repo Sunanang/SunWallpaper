@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/btn_camera_pop_camera"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textColor="@color/rect"
+            android:text="@string/shareTo"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/popup_top_background"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/lin_qq"
+            android:clickable="true"
+            android:background="@drawable/pop_midd"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="QQ"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:drawableLeft="@drawable/ic_qq"
+                android:textColor="@color/dialog_but"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_space"
+        android:clickable="true"
+        android:background="@drawable/pop_midd"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="空间"
+            android:gravity="center"
+            android:textColor="@color/dialog_but"
+            android:drawableLeft="@drawable/ic_space"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_wechat"
+        android:clickable="true"
+        android:background="@drawable/pop_midd"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="微信"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_wechat"
+            android:textColor="@color/dialog_but"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/lin_wechat_firs"
+        android:background="@drawable/pop_midd_bottom"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="朋友圈"
+            android:drawableLeft="@drawable/ic_wechat_firs"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/dialog_but"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/btn_camera_pop_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="取消"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/rect"
+            android:background="@drawable/pop_calan"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+

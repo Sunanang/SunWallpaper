@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 定义一个旋转的动画 ,图片是我们自己定义的-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/resizeapi"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="360" >
+
+</rotate>

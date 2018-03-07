@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NormalMenu">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <!--<item name="android:background">@drawable/btn_menu</item>-->
+        <item name="android:maxLength">3</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="NormalMenu2">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <!--<item name="android:background">@drawable/btn_menu</item>-->
+        <item name="android:maxLength">3</item>
+        <item name="android:clickable">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- toolbar弹出菜单样式 -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- dialog样式 -->
+    <style name="dialog_custom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>    <!--是否浮在界面上-->
+        <item name="android:windowIsTranslucent">true</item> <!--是否半透明-->
+        <item name="android:windowNoTitle">false</item>       <!--是否有标题-->
+        <item name="android:windowBackground">@android:color/transparent</item> <!--窗口背景色透明-->
+        <item name="android:backgroundDimEnabled">false</item> <!--背景是否模糊显示-->
+    </style>
+    <!-- dialog底部弹出菜单动画 -->
+    <style name="bottom_menu_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottom_menu_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_menu_exit</item>
+    </style>
+
+    <style name="AnimTopRight" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/top_right_in</item>
+        <item name="android:windowExitAnimation">@anim/top_right_out</item>
+    </style>
+
+    <style name="AnimTopLeft" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/top_left_in</item>
+        <item name="android:windowExitAnimation">@anim/top_left_out</item>
+    </style>
+
+    <style name="AnimTopMiddle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/top_middle_in</item>
+        <item name="android:windowExitAnimation">@anim/top_middle_out</item>
+    </style>
+
+    <style name="mycustom_progressbar1">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_ver_image</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:minWidth">20dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:maxWidth">40dp</item>
+    </style>
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/version_bg</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+</resources>

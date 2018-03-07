@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ffffff</color>-->
+    <!--<color name="colorPrimaryDark">#707070</color>-->
+    <!--<color name="colorAccent">#34b7f1</color>-->
+    <color name="lightTransparent">#83ffffff</color>
+    <color name="bitTransparent">#ab000000</color>
+    <color name="textDark">#252323</color>
+    <color name="lightGrey">#c4c4c4</color>
+    <color name="textcolor_content">#666666</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorToolbar">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTranslucent">#00000000</color>
+    <color name="egg_yellow">#ffcb15</color>
+    <color name="color_gray">#B4B4B4</color>
+    <color name="color_green">#00b4aa</color>
+    <color name="color_red">#FF6A6E</color>
+    <color name="color_red_light">#FFB4B6</color>
+    <color name="color_blue">#2681df</color>
+    <color name="color_gray_light">#F5F5F5</color>
+
+    <!-- Whites -->
+    <color name="white">#ffffff</color>
+    <color name="c50000">#50000000</color>
+    <color name="trans_10">#12000000</color>
+    <color name="white_99">#99ffffff</color>
+    <color name="common_title_line">#50ffffff</color>
+    <color name="common_setting_line">#20ffffff</color>
+    <color name="dialogbg">#f9ffffff</color>
+    <color name="dialogbg2">#dfdcdc</color>
+    <color name="dialog_but">#6FBF6A</color>
+    <color name="version_bg">#30be28</color>
+    <color name="refresh_bg">#30000000</color>
+    <color name="content_line">#30000000</color>
+    <color name="reserve_line">#20ffffff</color>
+    <color name="popur_text_color">#ffffff</color>
+    <color name="popur_back_color">#00000000</color>
+    <color name="back_load">#50000000</color>
+    <color name="shate">#504141</color>
+
+    <color name="shop_main_color" >#ff2a31</color>
+    <color name="hint_color_line">#9ddd</color>
+</resources>

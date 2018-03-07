@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">拍拍壁纸</string>
+    <string name="app_name_video">拍拍壁纸--视频壁纸</string>
+    <string name="app_nameTrance">拍拍壁纸--透明屏幕</string>
+    <string name="app_Advance">拍拍壁纸--立体照片</string>
+    <string name="wallpaper_lbl">拍拍壁纸--美图钟表</string>
+    <string name="app_shad">拍拍壁纸--魔幻壁纸</string>
+    <string name="browse_back">返回</string>
+    <string name="pic_down">下载</string>
+    <string name="special">特效壁纸</string>
+    <string name="settings">应用设置</string>
+    <string name="magic">光影魔幻壁纸</string>
+    <string name="bgDefinition">　　数值越大，图片越清晰,占用内存也越大，请根据手机内存自行调整，建议为60%-80%，新壁纸将于下次启动时生效，默认壁纸设置无效。</string>
+    <string name="browse_setting">设为壁纸</string>
+    <string name="video_community">视频社区</string>
+    <string name="pic_community">美图下载</string>
+    <string name="pic_opinion">意见反馈</string>
+    <string name="main_aboutUs">关于我们</string>
+    <string name="pic_Instructions">使用说明</string>
+    <string name="browse_setting_back">设为应用背景</string>
+    <string name="voice_dialog">　　非静音模式下动态壁纸将会播放您的背景音乐，这可能会对您造成干扰。为了您的体验，推荐您设置为静音壁纸模式。是否继续？</string>
+    <string name="voice_dialog_cancel">设置有声</string>
+    <string name="voice_dialog_sure">继续无声</string>
+    <string name="dialog_cancel">取消恢复</string>
+    <string name="dialog_sure">继续恢复</string>
+    <string name="dialog_content">恢复默认背景将会失去您现在设置的应用背景，是否继续？</string>
+    <string name="opinion_edit_hint">欢迎提出意见，我们会很认真的对待您的每一个反馈。</string>
+    <string name="opinion_edit_hint_contact">请留下您的联系方式，邮箱/QQ号/微信。</string>
+    <string name="opinion_contact">QQ交流群 : 244587320(点击加群)</string>
+    <string name="opinion_evaluate">给个好评</string>
+    <string name="destory">『最自由的手机壁纸』</string>
+    <string name="pulic_num">喜欢我们就请打赏一下吧(长按保存图片)</string>
+    <string name="down_error">文件损坏或路径错误，视频无法显示</string>
+    <string name="contact_website1">应用官网 : </string>
+    <string name="contact_website2">&#160;http://paipaiwall.bmob.site</string>
+    <string name="contact_email">Email : 1334630986@qq.com</string>
+    <string name="contact_qq">合作洽谈(QQ) : 1334630986/969484714</string>
+    <string name="about_wechat">更多精彩尽请更新最新版本</string>
+    <string name="declare">"　　本应用开发者非常重视对个人信息的保护，在使用本应用开发者的所有产品和服务前，请您务必仔细阅读并透彻理解本条款。一旦您选择使用，即表示您认可并接受本条款现有内容及其可能随时更新的内容。
+
+ 1. 个人信息的收集
+ 　　为了向您提供更加个性化的服务,本应用开发者会在您自愿选择服务或提供信息的情况下收集您的个人信息，并将这些信息进行整合。您在注册时所有原始键入的资料将引用为注册资料。如果因注册信息不真实而引起的问题，由您自行承担相应的后果。请您不要将您的帐号、密码转让或出借予他人使用（如有）。如您发现您的帐号遭他人非法使用，应立即通知本应用开发者。因黑客行为或用户的保管疏忽导致帐号、密码遭他人非法使用，本应用开发者不承担责任。
+ 　　您同意我们收集您在使用本应用开发者的产品和/或服务的过程中产生的信息。例如：
+
+ 　　日志信息
+ 　　当您使用本应用开发者的服务时，服务器会自动记录一些信息，例如您对我们服务的使用情况、IP地址、使用的语言以及访问日期和时间等。
+
+ 　　设备信息
+ 　　某些产品和/或服务包含唯一应用程序编号。当您安装、激活、更新、卸载相关服务或当这些服务定期与本应用开发者通信（例如软件的自动更新）时，系统会将此编号以及与安装相关的信息（例如操作系统类型和应用程序版本号）发送给本应用开发者。
+ 　　当您使用具有定位功能的服务时，我们可能会收集并处理有关设备的位置信息，以使得您不需要手动输入自身地理坐标就可获得相关服务。
+ 　　为改善用户体验，本应用开发者可能会收集和设备有关的信息，用以进行服务适配。例如您的硬件型号、操作系统版本等。您通过设备输入的任何信息，例如车型、车牌号、发动机号、车架号等，本应用开发者有可能进行存储和处理，并以此为您持续提供个性化服务。
+
+ 2. 个人信息的管理
+ 　　本应用开发者会以高度的勤勉义务对待这些信息，除非事先获得您的授权或本声明另有规定外，不会将这些信息对外公开或向第三方提供（本应用开发者的关联公司除外）。
+ 　　本应用开发者不会向无关第三方提供、分享用户个人信息。
+ 　　本应用开发者可能会对产品使用情况进行统计，以展示我们服务的整体使用趋势。这些统计信息不包含您的任何身份识别信息。
+ 　　在如下情况下，本应用开发者可能会披露您的个人信息：（1）事先获得您的授权；（2）您使用共享功能；（3）根据法律、法规、法律程序的要求或政府主管部门的强制性要求；（4）为维护本应用开发者的合法权益，例如查找、预防、处理欺诈或安全方面的问题；（5）符合相关服务条款或使用协议的规定；（6）其他有利于本应用开发者和您共同利益目的。
+
+ 3. 信息安全
+ 　　本应用开发者非常重视个人信息安全，研发和应用多种安全技术和程序等措施严格保护您的个人信息不被未经授权的访问、使用或泄漏。
+
+ 4. 未成年人的个人信息保护
+ 　　本应用开发者非常重视对未成年人个人信息的保护。若您是18周岁以下的未成年人，在使用本应用开发者的产品和/或服务前，应事先取得您家长或法定监护人的同意。
+
+ 5. 修订
+ 　　本应用开发者随时会对本隐私权保护声明进行修订。您同意持续关注本声明的最新版本且同意接受并遵守。
+
+ 6. 免责
+ 　　由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露，本应用毋需承担任何责任。
+
+ 　　如果您还有其他问题和建议，请联系我们。我们会始终致力于充分保护用户信息，并为您提供更优质的体验和服务。
+"</string>
+    <string name="instruction">" 　　本应用致力于打造最优化壁纸设计和自拍壁纸设置。用户可以通过《拍拍相机》板块自拍照片或者视频，设置为手机壁纸。也可以通过《在线壁纸》下载喜欢的壁纸和动态壁纸。以及不定期更新的最炫酷的《特效壁纸》.应用优化了动态壁纸的设置，减少了不必要的耗电，节省电量。在线壁纸定期更新，保证最优资源推送客户，在线资源全部免费。
+
+问题帮助：
+1. 下载失败
+ 　　出现下载异常的提示可能是因为网速问题，请刷新后重新尝试下载。或者是你的内存卡  可能要满了，你可以更换更大的SD卡，或清理卡中不再使用的文件。
+
+2. 下载后壁纸存放在哪儿？
+ 　　统一壁纸默认将下载的壁纸保存在文件管理中的sunWallpaper文件夹中，你可以通过该文件路径或手机自己带图库相册查看。
+
+3. 图片下载后消失问题
+ 　　查看是否禁止统一壁纸APP使用手机的读写权限是否使用了第三方清理软件清除了图片。
+
+4. 点击操作没有提示
+ 　　手机关闭通知栏或部分权限受限。可在手机设置---应用程序管理----权限设置中修改权限。
+
+5. 无法设置壁纸
+ 　　1).无法设置壁纸是因为壁纸没有下载完成
+ 　　2).有些系统深度定制的手机改变了壁纸设置的方式，导致统一壁纸无法按照正常方式设置壁纸。
+
+6、图片模糊问题
+ 　　统一壁纸详情页（内容页）采用模糊加载的方式，在加载过程中受网络影响，预先加载部分模糊图片，等加载完毕就能清晰显示。
+        "</string>
+    <string name="bitmapError">图片解析错误，请重新选择一张图片</string>
+    <string name="defaults">已恢复默认壁纸设置</string>
+    <string name="shareTo">分享到</string>
+
+    <string-array name="colors">
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>彩色</item>
+        <item>粉红</item>
+        <item>秋之金硕</item>
+        <item>冬日仙境</item>
+    </string-array>
+    <string-array name="colors_intern">
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>彩色</item>
+        <item>粉红</item>
+        <item>秋之金硕</item>
+        <item>冬日仙境</item>
+    </string-array>
+    <string name="straight">直线型</string>
+    <string name="eight">8字型</string>
+    <string name="rand">随机</string>
+    <string name="set">设为壁纸</string>
+    <string name="animSpeed">动画速度</string>
+    <string name="colordropdown">背景颜色</string>
+    <string name="readdropdown">滤镜</string>
+    <string name="parallax">视差效果   </string>
+</resources>
